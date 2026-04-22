@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sishupal 🐍
+
+**India's first fully controllable AI agent. Think Jarvis. Built in India by Avasis.**
+
+---
+
+## What is Sishupal?
+
+Sishupal is a voice-enabled, vision-capable, fully controllable AI agent that runs on your machine. Not in the cloud. Not locked behind an API. On your hardware. Under your control.
+
+**Think Jarvis. But real. And open source.**
+
+---
+
+## Features
+
+### 🎙️ Voice Control
+Talk to Sishupal like you'd talk to a person. Natural voice in, natural voice out. Powered by state-of-the-art STT and TTS.
+
+### 📸 Screen Vision
+Sishupal can see your screen, understand UI elements, click buttons, fill forms, and navigate any application.
+
+### 💻 Full Machine Control
+Terminal, files, apps, browser — Sishupal controls your entire machine. With safety rails you define.
+
+### 🧠 Persistent Memory
+Remembers your preferences, projects, and context across sessions. Your agent gets better the more you use it.
+
+### 📱 Multi-Channel
+Reach Sishupal via web, Telegram, WhatsApp, Discord, or Signal. One brain, many touchpoints.
+
+### 🔒 Your Data, Your Rules
+Runs on your machine. No cloud dependency. No data leaks. You approve every destructive action.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js 15 + Tailwind CSS + Framer Motion
+- **Backend:** OpenClaw Gateway (AI agent orchestration)
+- **Voice:** Whisper (STT) + ElevenLabs (TTS)
+- **Vision:** Peekaboo (screen understanding)
+- **Orchestration:** Z.AI GLM models
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+
+- OpenClaw Gateway running locally
+- Ollama or Z.AI API access
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repo
+git clone https://github.com/avasis-ai/sishupal.git
+cd sishupal
+
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Connecting to OpenClaw
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Sishupal needs an OpenClaw Gateway to be fully functional. Follow [OpenClaw setup](https://docs.openclaw.ai) to get the gateway running.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Try the interactive demo [here](#demo). It showcases Sishupal's chat interface and conversational abilities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Real voice integration (STT + TTS)
+- [ ] Screen vision demo
+- [ ] Tool execution showcase
+- [ ] Multi-channel integration (Telegram, WhatsApp)
+- [ ] Agent skills marketplace
+- [ ] Deployment instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## About Avasis
+
+Avasis is an Indian AI company building the future of autonomous agents. Founded by Abhay Talreja.
+
+**Website:** [avasis.ai](https://avasis.ai)
+**GitHub:** [avasis-ai](https://github.com/avasis-ai)
+
+---
+
+## License
+
+MIT License — see LICENSE file for details.
+
+---
+
+## Made with ❤️ in India 🇮🇳
